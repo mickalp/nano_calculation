@@ -31,7 +31,7 @@ class RDKit_2D:
         df = pd.DataFrame(rdkit_2d_desc,columns=header)
         df.insert(loc=0, column='smiles', value=self.smiles)
         df.dropna(axis=1, inplace=True)
-        df.to_excel(name[:-4]+'/Users/michal/OneDrive - University of Gdansk/OneDrive - University of Gdansk (for Students)/Jakub Rudzinski/dane_do_modelowania/_RDKit_2D_DM.xlsx', index=False)
+        df.to_excel(name[:-4]+'/Users/_RDKit_2D_DM.xlsx', index=False)
 
         
 new = RDKit_2D(without_ext_str)
@@ -77,7 +77,7 @@ def replace_nan_with_mean(df):
 
 df = pd.DataFrame(emp, columns=dict_col)
 df.dropna(axis=1, inplace=True)
-df.to_excel('/Users/michal/OneDrive - University of Gdansk/OneDrive - University of Gdansk (for Students)/Jakub Rudzinski/dane_do_modelowania/mordred_DM.xlsx')
+df.to_excel('/Users/mordred_DM.xlsx')
 
 
     
