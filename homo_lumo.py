@@ -12,7 +12,7 @@ import numpy as np
 
 
 
-#folder path
+#folder path to check token
 dir_path = '/Users/admin/OneDrive - University of Gdansk/OneDrive - University of Gdansk (for Students)/Jakub Rudzinski/out_v1/out_files/' #big computer
 # dir_path = '/Users/michal/OneDrive - University of Gdansk/OneDrive - University of Gdansk (for Students)/Jakub Rudzinski/out_v1/out_files/' #small computer
 
